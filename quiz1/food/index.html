@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Culinary · Tsar</title>
+  <script src="../../assets/js/theme.js"></script>
+  <link rel="stylesheet" href="../../assets/library/tailwindcss/tailwind-4.3.3.css">
+  <link rel="stylesheet" href="../../assets/library/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../../assets/css/card-grid.css">
+  <script src="../../assets/library/jquery/jquery-4.0.0.min.js" defer></script>
+  <script src="../../assets/js/site.js" defer></script>
+</head>
+<body id="top" data-page="food" class="font-sans antialiased">
+  <a class="skip-link rounded-lg" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header line sticky top-0 z-30 border-b">
+    <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4 lg:px-8">
+      <a href="../index.html" class="flex min-w-0 items-center gap-3" aria-label="Tsar home">
+        <span class="truncate text-sm font-semibold">Tsar</span>
+      </a>
+      <div class="flex shrink-0 items-center gap-3 sm:gap-6">
+        <nav class="hidden items-center gap-1 md:flex" aria-label="Main navigation">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="../profile/index.html">Portfolio</a>
+          <a class="nav-link" href="../hometown/index.html">Hometown</a>
+          <a class="nav-link" href="../food/index.html" aria-current="page">Culinary</a>
+          <a class="nav-link" href="../tourist/index.html">Tourism</a>
+        </nav>
+        <button class="theme-button" id="theme-toggle" type="button" aria-label="Dark theme" aria-pressed="false" hidden>
+          <span data-theme-icon="light"><i class="bi bi-moon icon" aria-hidden="true"></i></span>
+          <span data-theme-icon="dark" hidden><i class="bi bi-sun icon" aria-hidden="true"></i></span>
+        </button>
+      </div>
+    </div>
+    <nav id="mobile-menu" class="line flex flex-wrap gap-1 border-t px-6 py-3 md:hidden" aria-label="Mobile navigation">
+          <a class="nav-link inline-block" href="../index.html">Home</a>
+          <a class="nav-link inline-block" href="../profile/index.html">Portfolio</a>
+          <a class="nav-link inline-block" href="../hometown/index.html">Hometown</a>
+          <a class="nav-link inline-block" href="../food/index.html" aria-current="page">Culinary</a>
+          <a class="nav-link inline-block" href="../tourist/index.html">Tourism</a>
+          <a class="nav-link inline-block" href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main" class="mx-auto max-w-6xl px-6 py-10 lg:px-8">
+    <header class="collection-intro">
+      <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl">Taste of Surabaya</h1>
+    </header>
+
+    <div class="destination-grid">
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/food/rawon.webp" alt="Rawon" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Rawon</h2>
+          <p class="destination-description">Beef soup with a rich, dark broth made with kluwek. Often served with rice and bean sprouts, it is one of East Java&#x27;s best-known dishes.</p>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/food/rujakcingur.webp" alt="Rujak Cingur" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Rujak Cingur</h2>
+          <p class="destination-description">A mixture of vegetables, rice cakes, tofu, and cooked beef muzzle dressed with a bold petis sauce. The combination gives this Surabaya specialty its distinctive taste and texture.</p>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/food/lontongbalap.webp" alt="Lontong Balap" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Lontong Balap</h2>
+          <p class="destination-description">Rice cakes, bean sprouts, fried tofu, and lentho come together in a savory broth. It is a comforting local dish with a mix of soft and crunchy textures.</p>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/food/sateklopo.webp" alt="Sate Klopo" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Sate Klopo</h2>
+          <p class="destination-description">Skewered meat coated in grated coconut and grilled over charcoal. The coconut adds a fragrant, savory layer to this Surabaya take on satay.</p>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/food/tahutek.webp" alt="Tahu Tek" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Tahu Tek</h2>
+          <p class="destination-description">Fried tofu, rice cakes, potatoes, and bean sprouts covered in a peanut-and-petis sauce. This hearty street-food dish combines simple ingredients with a full-flavored dressing.</p>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/food/semanggi.webp" alt="Semanggi Surabaya" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Semanggi Surabaya</h2>
+          <p class="destination-description">Steamed semanggi leaves and vegetables served with a sweet, savory sauce. Usually paired with crackers, this traditional dish is closely associated with Surabaya.</p>
+        </div>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

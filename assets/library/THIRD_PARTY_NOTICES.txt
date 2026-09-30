@@ -1,0 +1,10 @@
+assets/library/bootstrap-icons/bootstrap-icons.min.css
+Bootstrap Icons v1.13.1 (https://icons.getbootstrap.com/)
+Copyright 2019-2024 The Bootstrap Authors
+Licensed under MIT (https://github.com/twbs/icons/blob/main/LICENSE)
+
+assets/library/jquery/jquery-4.0.0.min.js
+jQuery v4.0.0 | (c) OpenJS Foundation and other contributors | jquery.com/license
+
+assets/library/tailwindcss/tailwind-4.3.3.css
+tailwindcss v4.3.3 | MIT License | https://tailwindcss.com

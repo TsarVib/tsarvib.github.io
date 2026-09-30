@@ -1,0 +1,16 @@
+.agents/
+.codex/
+.aws/
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+tmp/
+node_modules/
+*.log
+__pycache__/

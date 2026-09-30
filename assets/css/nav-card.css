@@ -1,0 +1,39 @@
+.home-card-nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+.section-card {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: .85rem;
+  background: var(--canvas);
+  transition: border-color .18s, box-shadow .18s;
+}
+.section-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 6px 20px #102c2010;
+}
+.section-card-image {
+  display: block;
+  width: 100%;
+  height: clamp(6rem, 14svh, 9rem);
+  object-fit: cover;
+}
+.section-card-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  padding: .85rem 1rem;
+  font-size: .9rem;
+  font-weight: 600;
+}
+.section-card-label .icon { color: var(--accent); font-size: .85rem; }
+@media (min-width: 48rem) {
+  .home-card-nav { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

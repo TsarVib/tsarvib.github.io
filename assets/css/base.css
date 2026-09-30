@@ -1,0 +1,48 @@
+:root {
+  color-scheme: light;
+  --canvas: #fff;
+  --surface: #f8faf9;
+  --ink: #172724;
+  --muted: #64736f;
+  --border: #e3eae7;
+  --accent: #0e7490;
+  --accent-soft: #ecfeff;
+}
+[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas: #111a18;
+  --surface: #182420;
+  --ink: #e7f1ed;
+  --muted: #a5b8ae;
+  --border: #2e4037;
+  --accent: #67e8f9;
+  --accent-soft: #164e63;
+}
+html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
+body { background: var(--canvas); color: var(--ink); }
+::selection { background: #a5f3fc; color: #164e63; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+[hidden] { display: none !important; }
+.muted { color: var(--muted); }
+.accent { color: var(--accent); }
+.line { border-color: var(--border); }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: .65rem; min-height: 2.75rem; padding: .7rem 1.1rem; border-radius: .55rem; font-size: .875rem; font-weight: 600; border: 1px solid var(--border); transition: background .18s, transform .18s; }
+.button:hover { background: var(--surface); transform: translateY(-1px); }
+.button-primary { background: #0e7490; border-color: #0e7490; color: #fff; }
+.button-primary:hover { background: #155e75; }
+.icon { display: inline-flex; align-items: center; justify-content: center; width: 1.15rem; height: 1.15rem; flex: none; font-size: 1.15rem; line-height: 1; }
+.skip-link { position: fixed; left: 1rem; top: -5rem; z-index: 100; background: var(--canvas); padding: .7rem 1rem; }
+.skip-link:focus { top: 1rem; }
+.nav-link { padding: .55rem .85rem; font-size: .85rem; font-weight: 500; color: var(--muted); border-radius: .5rem; }
+.nav-link:hover, .nav-link[aria-current="page"] { color: var(--accent); background: var(--accent-soft); }
+.site-header { background: var(--canvas); }
+.theme-button { display: grid; place-items: center; height: 2.35rem; width: 2.35rem; padding: 0; flex: none; border: 1px solid var(--border); border-radius: .5rem; }
+.theme-button [data-theme-icon] { display: grid; place-items: center; line-height: 1; }
+.theme-button .bi::before { display: block; vertical-align: 0; }
+.profile-card { position: relative; background: var(--canvas); box-shadow: 0 12px 35px #193e2710; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}

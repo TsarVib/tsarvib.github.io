@@ -1,0 +1,6 @@
+@import "tailwindcss" source(none);
+@source "../../quiz1/**/*.html";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", Arial, sans-serif;
+}

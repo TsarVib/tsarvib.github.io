@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tourism · Tsar</title>
+  <script src="../../assets/js/theme.js"></script>
+  <link rel="stylesheet" href="../../assets/library/tailwindcss/tailwind-4.3.3.css">
+  <link rel="stylesheet" href="../../assets/library/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../../assets/css/card-grid.css">
+  <script src="../../assets/library/jquery/jquery-4.0.0.min.js" defer></script>
+  <script src="../../assets/js/site.js" defer></script>
+</head>
+<body id="top" data-page="tourist" class="font-sans antialiased">
+  <a class="skip-link rounded-lg" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header line sticky top-0 z-30 border-b">
+    <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4 lg:px-8">
+      <a href="../index.html" class="flex min-w-0 items-center gap-3" aria-label="Tsar home">
+        <span class="truncate text-sm font-semibold">Tsar</span>
+      </a>
+      <div class="flex shrink-0 items-center gap-3 sm:gap-6">
+        <nav class="hidden items-center gap-1 md:flex" aria-label="Main navigation">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="../profile/index.html">Portfolio</a>
+          <a class="nav-link" href="../hometown/index.html">Hometown</a>
+          <a class="nav-link" href="../food/index.html">Culinary</a>
+          <a class="nav-link" href="../tourist/index.html" aria-current="page">Tourism</a>
+        </nav>
+        <button class="theme-button" id="theme-toggle" type="button" aria-label="Dark theme" aria-pressed="false" hidden>
+          <span data-theme-icon="light"><i class="bi bi-moon icon" aria-hidden="true"></i></span>
+          <span data-theme-icon="dark" hidden><i class="bi bi-sun icon" aria-hidden="true"></i></span>
+        </button>
+      </div>
+    </div>
+    <nav id="mobile-menu" class="line flex flex-wrap gap-1 border-t px-6 py-3 md:hidden" aria-label="Mobile navigation">
+          <a class="nav-link inline-block" href="../index.html">Home</a>
+          <a class="nav-link inline-block" href="../profile/index.html">Portfolio</a>
+          <a class="nav-link inline-block" href="../hometown/index.html">Hometown</a>
+          <a class="nav-link inline-block" href="../food/index.html">Culinary</a>
+          <a class="nav-link inline-block" href="../tourist/index.html" aria-current="page">Tourism</a>
+          <a class="nav-link inline-block" href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main" class="mx-auto max-w-6xl px-6 py-10 lg:px-8">
+    <header class="collection-intro">
+      <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl">Explore Surabaya</h1>
+    </header>
+
+    <div class="destination-grid">
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/tourist/monkasel.webp" alt="Monumen Kapal Selam" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Monumen Kapal Selam</h2>
+          <div class="destination-details">
+            <p class="destination-location"><i class="bi bi-geo-alt icon" aria-hidden="true"></i>Jl. Pemuda</p>
+            <a class="destination-link" href="https://www.google.com/maps/search/?api=1&amp;query=Monumen%20Kapal%20Selam%20Surabaya" target="_blank" rel="noopener noreferrer" aria-label="View location: Monumen Kapal Selam">View location</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/tourist/kotalama.webp" alt="Kota Lama" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Kota Lama</h2>
+          <div class="destination-details">
+            <p class="destination-location"><i class="bi bi-geo-alt icon" aria-hidden="true"></i>Jl. Rajawali</p>
+            <a class="destination-link" href="https://www.google.com/maps/search/?api=1&amp;query=Kota%20Lama%20Surabaya%20Jalan%20Rajawali" target="_blank" rel="noopener noreferrer" aria-label="View location: Kota Lama">View location</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/tourist/tunjungan.webp" alt="Jalan Tunjungan" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Jalan Tunjungan</h2>
+          <div class="destination-details">
+            <p class="destination-location"><i class="bi bi-geo-alt icon" aria-hidden="true"></i>Jl. Tunjungan</p>
+            <a class="destination-link" href="https://www.google.com/maps/search/?api=1&amp;query=Jalan%20Tunjungan%20Surabaya" target="_blank" rel="noopener noreferrer" aria-label="View location: Jalan Tunjungan">View location</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/tourist/tamanflora.webp" alt="Taman Flora" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Taman Flora</h2>
+          <div class="destination-details">
+            <p class="destination-location"><i class="bi bi-geo-alt icon" aria-hidden="true"></i>Bratang, Gubeng</p>
+            <a class="destination-link" href="https://www.google.com/maps/search/?api=1&amp;query=Taman%20Flora%20Surabaya" target="_blank" rel="noopener noreferrer" aria-label="View location: Taman Flora">View location</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/tourist/surabayanorthquay.webp" alt="Surabaya North Quay" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Surabaya North Quay</h2>
+          <div class="destination-details">
+            <p class="destination-location"><i class="bi bi-geo-alt icon" aria-hidden="true"></i>Surabaya waterfront</p>
+            <a class="destination-link" href="https://www.google.com/maps/search/?api=1&amp;query=Surabaya%20North%20Quay" target="_blank" rel="noopener noreferrer" aria-label="View location: Surabaya North Quay">View location</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="destination-card">
+        <img class="destination-photo" src="../../assets/img/tourist/surabayazoo.webp" alt="Kebun Binatang Surabaya" width="600" height="375" loading="lazy">
+        <div class="destination-content">
+          <h2 class="destination-name">Kebun Binatang Surabaya</h2>
+          <div class="destination-details">
+            <p class="destination-location"><i class="bi bi-geo-alt icon" aria-hidden="true"></i>Jl. Setail No. 1</p>
+            <a class="destination-link" href="https://www.google.com/maps/search/?api=1&amp;query=Kebun%20Binatang%20Surabaya" target="_blank" rel="noopener noreferrer" aria-label="View location: Kebun Binatang Surabaya">View location</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hometown · Tsar</title>
+  <script src="../../assets/js/theme.js"></script>
+  <link rel="stylesheet" href="../../assets/library/tailwindcss/tailwind-4.3.3.css">
+  <link rel="stylesheet" href="../../assets/library/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../../assets/css/pages/hometown.css">
+  <script src="../../assets/library/jquery/jquery-4.0.0.min.js" defer></script>
+  <script src="../../assets/js/site.js" defer></script>
+</head>
+<body id="top" data-page="hometown" class="font-sans antialiased">
+  <a class="skip-link rounded-lg" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header line sticky top-0 z-30 border-b">
+    <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4 lg:px-8">
+      <a href="../index.html" class="flex min-w-0 items-center gap-3" aria-label="Tsar home">
+        <span class="truncate text-sm font-semibold">Tsar</span>
+      </a>
+      <div class="flex shrink-0 items-center gap-3 sm:gap-6">
+        <nav class="hidden items-center gap-1 md:flex" aria-label="Main navigation">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="../profile/index.html">Portfolio</a>
+          <a class="nav-link" href="../hometown/index.html" aria-current="page">Hometown</a>
+          <a class="nav-link" href="../food/index.html">Culinary</a>
+          <a class="nav-link" href="../tourist/index.html">Tourism</a>
+        </nav>
+        <button class="theme-button" id="theme-toggle" type="button" aria-label="Dark theme" aria-pressed="false" hidden>
+          <span data-theme-icon="light"><i class="bi bi-moon icon" aria-hidden="true"></i></span>
+          <span data-theme-icon="dark" hidden><i class="bi bi-sun icon" aria-hidden="true"></i></span>
+        </button>
+      </div>
+    </div>
+    <nav id="mobile-menu" class="line flex flex-wrap gap-1 border-t px-6 py-3 md:hidden" aria-label="Mobile navigation">
+          <a class="nav-link inline-block" href="../index.html">Home</a>
+          <a class="nav-link inline-block" href="../profile/index.html">Portfolio</a>
+          <a class="nav-link inline-block" href="../hometown/index.html" aria-current="page">Hometown</a>
+          <a class="nav-link inline-block" href="../food/index.html">Culinary</a>
+          <a class="nav-link inline-block" href="../tourist/index.html">Tourism</a>
+          <a class="nav-link inline-block" href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main" class="hometown-page mx-auto max-w-6xl px-6 py-10 lg:px-8">
+    <div class="hometown-layout">
+      <div class="hometown-media">
+        <img class="hometown-photo" src="../../assets/img/tourist/surabayanorthquay.webp"
+          alt="Surabaya North Quay" width="600" height="400">
+        <iframe class="hometown-map"
+          src="https://www.google.com/maps?q=Surabaya%2C%20East%20Java%2C%20Indonesia&amp;z=12&amp;output=embed"
+          title="Interactive map of Surabaya, East Java, Indonesia"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+
+      <section class="hometown-description" aria-labelledby="hometown-title">
+        <h1 id="hometown-title" class="text-4xl font-semibold tracking-tight sm:text-5xl">Surabaya</h1>
+
+        <p>Surabaya is the capital of East Java, located on the northeastern coast of Java. As a major port city, it has a long history of trade and continues to be an important center of business and education in Indonesia.</p>
+        <p>The city is known as <em>Kota Pahlawan</em>, or the City of Heroes. This identity reflects the courage of its people during the Battle of Surabaya on 10 November 1945, an important moment in Indonesia's struggle for independence.</p>
+        <p>Surabaya brings together historic neighborhoods and modern city life. Its streets, local markets, and public spaces offer different ways to experience the city, while its heritage remains an important part of its character.</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

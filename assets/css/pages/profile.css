@@ -1,0 +1,31 @@
+.profile-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 2.75rem;
+}
+.profile-sidebar, .profile-history { min-width: 0; }
+.profile-summary { overflow: hidden; background: var(--canvas); }
+.profile-photo-frame { position: relative; width: 100%; aspect-ratio: 4 / 5; max-height: 22rem; overflow: hidden; background: var(--accent-soft); }
+.profile-photo-frame > img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: center; }
+.profile-social { display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border: 1px solid var(--border); border-radius: .55rem; transition: color .18s, background .18s, border-color .18s; }
+.profile-social:hover { color: var(--accent); background: var(--accent-soft); border-color: var(--accent); }
+.profile-section-heading { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+.profile-experience { margin-top: 3rem; border-top: 1px solid var(--border); padding-top: 2.75rem; }
+.profile-timeline { padding-left: .4rem; }
+.timeline-item { position: relative; border-left: 1px solid var(--border); padding: 0 0 2.5rem 1.75rem; overflow-wrap: anywhere; }
+.timeline-item:last-child { padding-bottom: .5rem; border-left-color: transparent; }
+.timeline-item::before { content: ""; position: absolute; top: .35rem; left: -.32rem; width: .6rem; height: .6rem; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 .25rem var(--canvas); }
+.timeline-date { color: var(--accent); font-size: .75rem; font-weight: 600; margin-bottom: .65rem; }
+.timeline-title { font-size: 1.2rem; font-weight: 650; line-height: 1.4; letter-spacing: -.02em; }
+.timeline-organization { color: var(--muted); font-size: .85rem; font-weight: 600; margin-top: .4rem; }
+.timeline-description { color: var(--muted); font-size: .875rem; line-height: 1.9; margin-top: .85rem; }
+@media (min-width: 48rem) {
+  .profile-layout { grid-template-columns: minmax(0, .85fr) minmax(0, 1.65fr); gap: 3rem; }
+  .profile-sidebar { position: sticky; top: 6rem; max-height: calc(100svh - 7rem); overflow-y: auto; border-radius: 1rem; scrollbar-width: thin; }
+}
+@media (min-width: 64rem) {
+  .profile-layout { grid-template-columns: minmax(0, 20rem) minmax(0, 1fr); gap: 4rem; }
+  .timeline-item { padding-left: 2rem; }
+  .timeline-title { font-size: 1.35rem; }
+}
