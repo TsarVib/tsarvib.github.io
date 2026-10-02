@@ -1,14 +1,10 @@
 # Tourism photos
 
-Photos are stored locally from the user's reference repository:
-https://github.com/hasannmo/web-programming-d/tree/main/assets/img/tourist
+Downloaded from Wikimedia Commons on 2026-10-02. Images were resized and cropped to 960 × 600 and converted to WebP.
 
-Replace the WebP files or edit their paths in `quiz1/tourist/index.html` to use your own photos.
-
-Background reading for the descriptions and locations:
-- https://tourism.surabaya.go.id/
-- https://www.surabaya.go.id/id/berita/22549/pemkot-surabaya-soft-launching-kota-lama-sejumlah-paket-wisata-disiapkan
-- https://tourism.surabaya.go.id/destination/9192cdb5-1a97-420a-9b24-0957ba842fb3
-- https://sisparnas.kemenpar.go.id/p/34717
-- https://sisparnas.kemenpar.go.id/p/63134
-- https://pasarsurya.surabaya.go.id/index.php/pasar-bratang/
+- `tugupahlawan.webp`: [Tugu Pahlawan Surabaya.jpg](https://commons.wikimedia.org/wiki/File:Tugu_Pahlawan_Surabaya.jpg) — sbamueller, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).
+- `houseofsampoerna.webp`: [House of Sampoerna Mei 2015.jpg](https://commons.wikimedia.org/wiki/File:House_of_Sampoerna_Mei_2015.jpg) — consigliere ivan from Bontang, Indonesia, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).
+- `chenghoo.webp`: [Cheng ho.jpg](https://commons.wikimedia.org/wiki/File:Cheng_ho.jpg) — JV052Nikken, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+- `sanggaragung.webp`: [The front side of Sanggar Agung Temple, Surabaya-Indonesia, which is facing the sea.jpg](https://commons.wikimedia.org/wiki/File:The_front_side_of_Sanggar_Agung_Temple,_Surabaya-Indonesia,_which_is_facing_the_sea.jpg) — Okkisafire, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+- `tamanbungkul.webp`: [Kuranaga taman bungkul panorama Edit.jpg](https://commons.wikimedia.org/wiki/File:Kuranaga_taman_bungkul_panorama_Edit.jpg) — Kuranaga0derajat, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- `alakbar.webp`: [Masjid Nasional Al-Akbar Surabaya-4.jpg](https://commons.wikimedia.org/wiki/File:Masjid_Nasional_Al-Akbar_Surabaya-4.jpg) — Indonesiagood, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
